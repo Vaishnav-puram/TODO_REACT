@@ -7,7 +7,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.addC{
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid black;
+  height: 190px;
+  width: 400px;
+  font-weight: bolder;
+}
+.fields{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  width: fit-content;
+}
+.cl{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todolists{
+ display: flex;
+ flex-direction: column;
+ padding: 3px 3px;
+ border: 1px solid black;
+width: 250px;
 }
